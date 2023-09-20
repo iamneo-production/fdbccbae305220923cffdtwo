@@ -1,6 +1,6 @@
-namespace dotnetapp.Models
+namespace dotnetapp.Exceptions
 {
-    public class Booking    
+    public class SlotBookingException    
     {
         public string SlotBookingExceptionMessage { get; set; }
     }
