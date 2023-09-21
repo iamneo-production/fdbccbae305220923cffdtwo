@@ -4,11 +4,11 @@ using dotnetapp.Models;
 
 namespace dotnetapp.Controllers;
 
-public class HomeController : Controller
+public class BookingController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly ILogger<BookingController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    public BookingController(ILogger<BookingController> logger)
     {
         _logger = logger;
     }
